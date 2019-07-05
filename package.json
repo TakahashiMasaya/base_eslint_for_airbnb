@@ -1,0 +1,17 @@
+{
+  "name": "base_eslint_for_airbnb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "TakahashiMasaya",
+  "license": "MIT",
+  "scripts": {
+    "init_eslint": "eslint --init",
+    "check_eslint": "eslint --fix --ext .eslintrc.js ./src/*.js"
+  },
+  "dependencies": {
+    "typescript": "^3.5.2",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.18.0"
+  }
+}
