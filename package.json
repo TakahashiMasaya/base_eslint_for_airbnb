@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "init_eslint": "eslint --init",
-    "check_eslint": "eslint --fix --ext .eslintrc.js ./src/*.js"
+    "check_eslint": "eslint --fix --ext .eslintrc.js ./src/*.js",
+    "trans_ts": "tsc -p ./tsconfig.json --outFile ./src/main.js"
   },
   "dependencies": {
     "eslint": "^5.3.0",
