@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "sourceMap": false,
+    "lib": ["esnext", "dom"],
+    "target": "es2017",
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "removeComments": true,
+    "newLine": "LF",
+    "strict": false
+  }
+}

@@ -9,9 +9,11 @@
     "check_eslint": "eslint --fix --ext .eslintrc.js ./src/*.js"
   },
   "dependencies": {
-    "typescript": "^3.5.2",
     "eslint": "^5.3.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.18.0"
+    "eslint-config-stylelint": "^11.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "stylelint": "^10.1.0",
+    "typescript": "^3.5.2"
   }
 }
