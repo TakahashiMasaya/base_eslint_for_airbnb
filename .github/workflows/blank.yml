@@ -3,7 +3,7 @@ name: CITEST
 on:
   push:
     branches:
-    - branch1
+    - 'branch1'
 
 jobs:
   build:
