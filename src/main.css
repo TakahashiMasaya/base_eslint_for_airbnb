@@ -1,7 +1,0 @@
-body * { box-sizing: border-box; }
-
-h1 {
-    display: block;
-    border: 1px solid #000000;
-    color: #ffffff;
-}

@@ -3,7 +3,10 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: ['airbnb-base', 'stylelint'],
+  extends: [
+    'airbnb-base',
+    'stylelint'
+  ],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
